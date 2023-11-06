@@ -1,0 +1,8 @@
+version: "3"
+services:
+  review:
+    image: vvakame/review:5.8
+    volumes:
+      - .:/wat-2023-AutumnTechbook
+    build: .
+    working_dir: /wat-2023-AutumnTechbook
